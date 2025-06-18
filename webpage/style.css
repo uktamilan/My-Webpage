@@ -1,0 +1,129 @@
+/* Reset and basics */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: "Segoe UI", sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #e6fff5;
+}
+  
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+  
+/* Navigation */
+.navbar {
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+  
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+  
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+  
+.navbar .nav-links li a {
+    color: white;
+    transition: color 0.3s;
+}
+  
+.navbar .nav-links li a:hover {
+    color: #00ffff;
+}
+  
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+  
+.hero h1 {
+    font-size: 2.5rem;
+}
+  
+.hero span {
+    color: #00ffff;
+}
+  
+.section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+  
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+}
+  
+.skills-list li {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+  
+/* Project Cards */
+.project {
+    background: white;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-left: 5px solid #007bff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+.resume-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+  
+.resume-button:hover {
+    background-color: #0056b3;
+}
+  
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
+
+/* -------------------------- */
+/* ✅ Responsive Enhancements */
+/* -------------------------- */
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar .nav-
